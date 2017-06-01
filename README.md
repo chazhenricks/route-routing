@@ -12,11 +12,11 @@ You will need:
 1. Famous highway #2
 1. Two controllers defined in your application.
 1. Two partials - one bound to one of the controllers.
-1. Each controller will have two scope variables.
-1. $scope.highwayName
-1. $scope.highwayDescription
+1. Each controller will have two scope variables:
+    1. `$scope.highwayName`
+    1. `$scope.highwayDescription`
 1. You provide the name and description for each highway that you find via research.
-1. Start http-server and access both of the routes and verify that each highway's information displays correctly.
+Start `http-server` and access both of the routes and verify that each highway's information displays correctly.
 
 ```Example routes:
 
