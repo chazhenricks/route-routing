@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="">
+<html ng-app="RouteRouting">
 <head>
     <title>Route Routing</title>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
@@ -7,9 +7,22 @@
 <body>
 
 
+<nav>
+    <ul>
+        <li><a ng-href="#!/route66">Route 66</a></li>
+        <li><a ng-href="#!/blueridge">Blue Ridge Parkway</a></li>
+    </ul>
+</nav>
+
+
+<div ng-view></div>
+
 <script src="lib/node_modules/angular/angular.js"></script>
 <script src="lib/node_modules/angular-route/angular-route.js"></script>
-<script src="lib/node_modules/jquery/dist/jquery.js"></script>
 <script src="app/app.js"></script>
+<script src="app/controllers/Route66Ctrl.js"></script>
+<script src="app/controllers/BlueRidgePrkwayCtrl.js"></script>
+<script src="app/factories/RouteFactory.js"></script>
+<script src="lib/node_modules/jquery/dist/jquery.js"></script>
 </body>
 </html>
